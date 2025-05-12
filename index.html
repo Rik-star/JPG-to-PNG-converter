@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills Tech - JPG to PNG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Skills Tech</h1>
+    <p>Convert JPG to PNG</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <input type="file" id="fileInput" multiple accept=".jpg, .jpeg" />
+      <div id="dropZone">Drag & Drop JPG files here</div>
+      <div class="btn-group">
+        <button id="uploadBtn">Upload</button>
+        <button id="clearBtn" class="secondary">Clear</button>
+      </div>
+    </section>
+    <section id="previewSection" class="preview-grid"></section>
+    <button id="downloadAllBtn" class="download-all">Download All PNGs</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
